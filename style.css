@@ -164,3 +164,24 @@ nav .manu li a {
 .early-access-contener {
     padding: 16px 100px;
 }
+
+.footer-bg{
+    background-color: #001931;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 400px;
+    align-items: center;
+}
+.footer-link{
+    display: flex;
+    margin-top: 0px;
+    gap: 10px;
+    
+}
+.copy-right{
+    margin-left: 450px;
+    padding-bottom: 40px;
+}
