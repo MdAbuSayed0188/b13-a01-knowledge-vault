@@ -1,0 +1,19 @@
+/* Navbar CSS */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+nav .logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+nav .manu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 32px;
+}
