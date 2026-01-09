@@ -49,7 +49,58 @@ nav .manu li a {
     background-color: palevioletred;
 }
 
+/* Banner Section */
 
+.hero{
+    height:90vh;
+    background: url("./assets/hero-bg.png") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.section-titel p{
+    background:#fff;
+    align-items: center;
+    color:#166534;
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+
+.hero h1{
+    font-size:56px;
+    font-weight:800;
+}
+
+.hero p{
+    margin:20px auto;
+    max-width:720px;
+    font-size:18px;
+    color:#d1d5db;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.btn.primary{
+    background:#22c55e;
+    color:#fff;
+}
+
+.btn.outline{
+    border:2px solid #fff;
+    color:#fff;
+}
 
 /* Notes Section css */
 
